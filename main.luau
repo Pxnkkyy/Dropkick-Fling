@@ -6,6 +6,8 @@ local Player = Players.LocalPlayer
 
 local keybind = Enum.KeyCode.Q --Change this to any keybind you wish
 
+print("LOADED DROPKICK FLING. Made By Bludwin")
+
 local function DropKick()
     local Character = Player.Character or Player.CharacterAdded:Wait()
     local Humanoid = Character:WaitForChild("Humanoid")
